@@ -33,3 +33,9 @@
 ### 1. [249 Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)
 
 (hash each word, remember the circular order, O(n\*k) O(n\*k))
+
+## Recursion
+
+### 1. [38 Count and Say](https://leetcode.com/problems/count-and-say/)
+
+(Recursion + Two pointer to transfrom to the specified format) O(L1 + L2 + ... + Ln) O(n+Lmax)
