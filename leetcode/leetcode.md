@@ -6,11 +6,21 @@
 
 (Keep min queue, pop the min bricks while maintaining the ladder num) (O(nlogn) O(n))
 
+### 2. [2402 Meeting Roome 3]()
+
+(Sort interval and Dual min pq, (endtime, idx), (idx) for simulation) (O(nlogn + mlogn) O(n))
+
 ## Count Subarray By Element
 
 ### 1. [828 Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 
 (Count the count of unique elements of each character can contribute to, (j-i) \* (k-j)) (O(n) O(n))
+
+## Deque
+
+### 1. [1438 Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+
+(Maintain maxDeque and minDeque, the top of each them is the maximum and minimum of the subarray. if the diff is greater than k, then moves i until move to a correct subarray)
 
 ## Graph BFS
 
