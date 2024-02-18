@@ -27,3 +27,9 @@
 ### 1. [317 Shortest Distance From All Bulidings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)
 
 (Need to start from building then BFS to empty, otherwise will TLE. Maintain a dist and hit matrix is the key, to get the min from the dist when the hit == building_num) O(m^2 n^2) O(mn)
+
+## Hash
+
+### 1. [249 Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)
+
+(hash each word, remember the circular order, O(n\*k) O(n\*k))
