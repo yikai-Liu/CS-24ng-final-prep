@@ -28,6 +28,10 @@
 
 (Need to start from building then BFS to empty, otherwise will TLE. Maintain a dist and hit matrix is the key, to get the min from the dist when the hit == building_num) O(m^2 n^2) O(mn)
 
+### 2. [296 Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/)
+
+(Very similar question to 317, but BFS here willl give TLE. The reason here is there is no more obstacles, for one point it calculate the distance is to sum all row dist and col dist. We need to use Math and median for this question. Calculate the median of the row and cols and then find the optimal meeting point)
+
 ## Hash
 
 ### 1. [249 Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)
@@ -39,3 +43,9 @@
 ### 1. [38 Count and Say](https://leetcode.com/problems/count-and-say/)
 
 (Recursion + Two pointer to transfrom to the specified format) O(L1 + L2 + ... + Ln) O(n+Lmax)
+
+## Intervals
+
+### 1. [986 Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+
+(merge interval, O(m+n) O(m+n))
