@@ -22,6 +22,10 @@
 
 (Maintain maxDeque and minDeque, the top of each them is the maximum and minimum of the subarray. if the diff is greater than k, then moves i until move to a correct subarray) O(n) O(n)
 
+### 2. [239 Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+
+(similar to monotonic stack but need to popleft if the size of deque is exceeding the limit) (O(n) O(k))
+
 ## Graph BFS
 
 ### 1. [317 Shortest Distance From All Bulidings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)
@@ -30,7 +34,7 @@
 
 ### 2. [296 Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/)
 
-(Very similar question to 317, but BFS here willl give TLE. The reason here is there is no more obstacles, for one point it calculate the distance is to sum all row dist and col dist. We need to use Math and median for this question. Calculate the median of the row and cols and then find the optimal meeting point)
+(Very similar question to 317, but BFS here will give TLE. The reason here is there is no more obstacles, for one point it calculate the distance is to sum all row dist and col dist. We need to use Math and median for this question. Calculate the median of the row and cols and then find the optimal meeting point)
 
 ## Hash
 
@@ -49,3 +53,9 @@
 ### 1. [986 Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 
 (merge interval, O(m+n) O(m+n))
+
+## Sliding Window
+
+### 1. [76 Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+
+(track count of t is important, if counter[s[start]]++ > 0 this means the valid window exclude some chars in t, no longer a valid window anymore) (O(s+t) O(t+s))
